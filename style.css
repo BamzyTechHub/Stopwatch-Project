@@ -1,0 +1,51 @@
+ 
+ /*STYLINYG FOR TEMPERATURE CONVERTER APPLICATION */
+ /*body{
+    font-family: Arial, sans-serif;
+    background-color: hsl(hue, saturation, lightness);
+
+ }
+    h1{
+        color: hsl(210, 100%, 50%);
+        
+    }
+    form{
+        text-align: center;
+        background-color: #f9f9f9;
+        max-width: 300px;
+        margin: auto;
+        padding: 25px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(201, 31, 31, 0.349);
+    }
+    #textBox{
+        width: 50%;
+        text-align: center;
+        font-size: 2em;
+        border-radius: 4px;
+        margin-bottom: 15px;
+    }
+    label{
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+    button{
+        font-size: 15px;
+        background-color: hsl(210, 83%, 49%);
+        font-size: 1.5em;
+        border: none;
+        padding: 10px 15px;
+        border-radius: 5px;
+        color: rgb(219, 219, 219);
+        cursor: pointer;
+    }
+    button:hover{
+        background-color: hsl(210, 89%, 17%);
+    }
+    #result{
+        margin-top: 20px;
+        font-size: 1.2em;
+        font-weight: bold;
+    }
+
+    
