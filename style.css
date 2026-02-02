@@ -1,51 +1,68 @@
- 
- /*STYLINYG FOR TEMPERATURE CONVERTER APPLICATION */
- /*body{
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   background-color: hsl(200, 50%, 90%);
+}
+
+#myH1{
+    font-size: 4em;
     font-family: Arial, sans-serif;
-    background-color: hsl(hue, saturation, lightness);
+    color:#333;
+}
 
- }
-    h1{
-        color: hsl(210, 100%, 50%);
-        
-    }
-    form{
-        text-align: center;
-        background-color: #f9f9f9;
-        max-width: 300px;
-        margin: auto;
-        padding: 25px;
-        border-radius: 10px;
-        box-shadow: 0 0 10px rgba(201, 31, 31, 0.349);
-    }
-    #textBox{
-        width: 50%;
-        text-align: center;
-        font-size: 2em;
-        border-radius: 4px;
-        margin-bottom: 15px;
-    }
-    label{
-        font-size: 1.5em;
-        font-weight: bold;
-    }
-    button{
-        font-size: 15px;
-        background-color: hsl(210, 83%, 49%);
-        font-size: 1.5em;
-        border: none;
-        padding: 10px 15px;
-        border-radius: 5px;
-        color: rgb(219, 219, 219);
-        cursor: pointer;
-    }
-    button:hover{
-        background-color: hsl(210, 89%, 17%);
-    }
-    #result{
-        margin-top: 20px;
-        font-size: 1.2em;
-        font-weight: bold;
-    }
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid 5px;
+    border-radius: 50px;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 50px;
+}
+#display{
+    font-size: 5rem;
+    font-family:    monospace;
+    font-weight: bold;
+    margin-bottom: 25px;
+    color: hsl (0, 0%, 20%);
+}
 
-    
+#controls button{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    min-width: 125;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: background-color 0.5s;
+}
+#startBtn{
+    background-color: hsl(120, 78%, 55%);
+}
+
+#startBtn:hover{
+    background-color: hsl(120, 59%, 26%);
+}
+
+#stopBtn{
+    background-color: hsl(0, 75%, 50%);
+}
+#stopBtn:hover{
+    background-color: hsl(0, 59%, 26%);
+}
+#resetBtn{
+    background-color: hsl(240, 70%, 40%);
+}
+#resetBtn:hover{
+    background-color: hsl(240, 59%, 26%);
+}
+#time{
+    font-size: 2rem;
+    margin-top: 15px;
+    color: hsl(0, 0%, 30%);
+}
